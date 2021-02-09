@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Rena Wagner">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <html lang="en-US"></html>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon.ico">
+    <title>To-do list</title>
+  </head>
+  
+  <body>
+    <h1>TO-DO LIST</h1>
+    <div id='time'>January 1st Sunday</div>
+    <div class='lists'>
+        <div class='input'>
+            <form id='form'>
+                <input type="text" id="todo" placeholder="Add your to-do here">
+                <input type="date" id='dueDate'>
+                <button type="submit" class='submitBtn'>Add</button>
+            </form>
+        </div>
+        <div class="tasklist">
+            <ul>
+               
+            </ul>
+        </div>
+        <button id='deleteAll'>Delete all</button>
+    </div>
+    </body>
+    <script defer src="app.js"></script>
+</html> 

@@ -1,0 +1,125 @@
+html {
+  background: rgb(252, 176, 69);
+  background: radial-gradient(
+    circle,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(250, 135, 135, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+}
+
+#time {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+}
+
+.lists {
+  max-width: 500px;
+  height: 100%;
+  overflow-y: scroll;
+  border-radius: 5%;
+  margin: auto;
+}
+
+.input {
+  width: 400px;
+  margin: 50px auto;
+  padding: auto;
+  align-items: center;
+}
+
+form input {
+  margin: 5px auto;
+  padding-left: 15px;
+  display: block;
+  font-size: 1em;
+  height: 35px;
+  width: 385px;
+  border: none;
+  border-radius: 5px;
+  color: #242526;
+  outline: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+form .submitBtn {
+  float: right;
+  color: #fff;
+  font-size: 1em;
+  padding: 5px;
+  width: 100px;
+  background-color: #eb6100;
+  border: none;
+  border-radius: 10%;
+  border-bottom: 5px solid #b84c00;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+form button:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+
+.tasklist {
+  margin: 100px auto;
+  width: 400px;
+}
+
+.tasklist ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2.5em;
+  border-radius: 5px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #242526;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+}
+
+li strong {
+  color: #555555;
+  float: right;
+}
+
+.tasklist span {
+  float: right;
+  margin-left: 15px;
+  font-size: 1.5em;
+}
+
+#deleteAll {
+  margin: auto;
+  display: block;
+  color: #fff;
+  font-size: 1em;
+  padding: 5px;
+  width: 100px;
+  background-color: #eb0027;
+  border: none;
+  border-radius: 10%;
+  border-bottom: 5px solid #a0031d;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
